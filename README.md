@@ -9,38 +9,38 @@
   <a href="https://foxl.ai">Website</a> &bull;
   <a href="https://app.foxl.ai">Web App</a> &bull;
   <a href="https://docs.foxl.ai">Documentation</a> &bull;
+  <a href="https://discord.gg/6J53VyV2Fy">Discord</a> &bull;
   <a href="https://github.com/foxl-ai/foxl/releases/latest">Download</a>
 </p>
 
 ---
 
-Foxl is an autonomous AI agent desktop app that controls your real Chrome browser, runs code, manages files, and automates tasks with persistent memory and 69 skills.
+Foxl is an autonomous AI agent desktop app that controls your real Chrome browser, runs code, manages files, and automates tasks with persistent memory and 73 skills.
 
 ## Download
 
-**[Download Foxl for Mac (Universal)](https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest-universal.dmg)**
-
-Requires macOS 12 or later. Works on Apple Silicon and Intel.
+| Platform | Download | Requirements |
+|----------|----------|--------------|
+| **macOS** (Universal) | [Foxl-latest-universal.dmg](https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest-universal.dmg) | macOS 12+, Apple Silicon & Intel |
+| **Windows** (Installer) | [Foxl-latest-setup.exe](https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest-setup.exe) | Windows 10+ |
+| **Windows** (Portable) | [Foxl-latest-portable.zip](https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest-portable.zip) | Windows 10+, no install needed |
 
 ## Features
 
-- **Real browser control** — uses your actual Chrome with all your logged-in sessions
-- **Persistent memory** — remembers your preferences across conversations
-- **24/7 scheduling** — automates recurring tasks (cron, heartbeat, webhook)
-- **69 skills** — messaging, productivity, media, development tools
-- **21 agent tools** — browser, code, files, git, memory, scheduling
-- **5 Claude models** — Opus 4.6, Sonnet 4.6, Haiku 4.5 (via AWS Bedrock)
-- **Local-first** — your data stays on your machine
-- **BYOK** — use your own API keys (Anthropic, OpenAI, Google, Ollama)
+- **Real browser control** -- uses your actual Chrome with all your logged-in sessions
+- **Multi-agent orchestration** -- spawn up to 5 concurrent subagents for parallel tasks
+- **Persistent memory** -- remembers your preferences across conversations
+- **24/7 scheduling** -- automates recurring tasks (cron, heartbeat, webhook)
+- **73 skills** -- messaging, productivity, media, development tools
+- **21 agent tools** -- browser, code, files, git, memory, scheduling
+- **Adaptive thinking** -- configurable reasoning effort (Low/Medium/High/Max)
+- **Local-first** -- your data stays on your machine
+- **BYOK** -- use your own API keys (Anthropic, OpenAI, Google, Ollama)
 
 ## Web App
 
-Use Foxl at [app.foxl.ai](https://app.foxl.ai) — no installation needed. Sign in with Google, Apple, or email.
+Use Foxl at [app.foxl.ai](https://app.foxl.ai) -- no installation needed. Sign in with Google, Apple, or email.
 
 ## Documentation
 
 Full documentation at [docs.foxl.ai](https://docs.foxl.ai).
-
-## License
-
-[Foxl Proprietary License](LICENSE) — Copyright 2026 Foxl AI. All rights reserved.
