@@ -42,7 +42,7 @@
 
 ## Documentation
 
-Full docs at [docs.foxl.ai](https://docs.foxl.ai): [Quickstart](https://docs.foxl.ai/quickstart), [Models](https://docs.foxl.ai/models), [Providers](https://docs.foxl.ai/providers), [Tools](https://docs.foxl.ai/tools), [Skills](https://docs.foxl.ai/skills), [Schedules](https://docs.foxl.ai/schedules), [Credits](https://docs.foxl.ai/credits), [FAQ](https://docs.foxl.ai/faq).
+Full docs at [docs.foxl.ai](https://docs.foxl.ai/docs): [Download](https://docs.foxl.ai/docs/getting-started/download), [Models](https://docs.foxl.ai/docs/models), [Providers](https://docs.foxl.ai/docs/providers), [Tools](https://docs.foxl.ai/docs/tools), [Skills](https://docs.foxl.ai/docs/skills), [Sub-agents](https://docs.foxl.ai/docs/subagents), [Scheduling](https://docs.foxl.ai/docs/scheduling), [Memory](https://docs.foxl.ai/docs/memory), [Credits](https://docs.foxl.ai/docs/account/credits), [FAQ](https://docs.foxl.ai/docs/faq).
 
 ## Community
 
