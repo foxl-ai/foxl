@@ -24,10 +24,12 @@
 
 ## Download
 
-- **macOS** (Apple Silicon + Intel, 12+) — [Foxl-latest-universal.dmg](https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest-universal.dmg)
-- **Windows** (10+, signed installer) — [Foxl-latest-setup.exe](https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest-setup.exe)
-- **Windows Portable** (no install) — [Foxl-latest-portable.zip](https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest-portable.zip)
-- **Web** — [app.foxl.ai](https://app.foxl.ai)
+| Platform | Notes | Download |
+|---|---|---|
+| **macOS** | Universal (Apple Silicon + Intel), macOS 12+ | [Foxl-latest-universal.dmg](https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest-universal.dmg) |
+| **Windows** | Signed installer, Windows 10+ | [Foxl-latest-setup.exe](https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest-setup.exe) |
+| **Windows Portable** | No install, Windows 10+ | [Foxl-latest-portable.zip](https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest-portable.zip) |
+| **Web** | Any modern browser | [app.foxl.ai](https://app.foxl.ai) |
 
 ## Highlights
 
