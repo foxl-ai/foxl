@@ -7,6 +7,10 @@
 <p align="center"><strong>Your 24/7 personal AI agent for macOS and Windows.</strong></p>
 
 <p align="center">
+  Lives in your menu bar. Drives your real Chrome, writes and runs code, manages files, spawns parallel subagents, and runs scheduled automations while you sleep — powered by Claude Opus 4.7 and Sonnet 4.6, or your own API keys.
+</p>
+
+<p align="center">
   <a href="https://github.com/foxl-ai/foxl/releases/latest"><img src="https://img.shields.io/github/v/release/foxl-ai/foxl?color=16a34a&label=release" alt="Latest release"></a>
   <a href="https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest-universal.dmg"><img src="https://img.shields.io/badge/macOS-universal-000?logo=apple&logoColor=white" alt="macOS"></a>
   <a href="https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest-setup.exe"><img src="https://img.shields.io/badge/Windows-10%2B-0078D6?logo=windows&logoColor=white" alt="Windows"></a>
