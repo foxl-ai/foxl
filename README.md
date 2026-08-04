@@ -35,8 +35,6 @@
 
 ## Download
 
-Latest release: **v0.5.13**.
-
 | Platform | Notes | Download |
 |---|---|---|
 | **macOS** | Universal (Apple Silicon + Intel), macOS 12+ | [Foxl-latest-universal.dmg](https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest-universal.dmg) |
