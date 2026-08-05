@@ -4,7 +4,7 @@
 
 <h1 align="center">Foxl</h1>
 
-<p align="center"><strong>Your personal AI agent for macOS, Windows, Linux, web and iOS TestFlight.</strong></p>
+<p align="center"><strong>Your personal AI agent for macOS, Windows, Linux, Android, web and iOS TestFlight.</strong></p>
 
 <p align="center">
   Ask for an outcome, get the finished work. Foxl sits in your menu bar, drives a
@@ -17,6 +17,7 @@
   <a href="https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest-universal.dmg"><img src="https://img.shields.io/badge/macOS-universal-000?logo=apple&logoColor=white" alt="macOS"></a>
   <a href="https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest-setup.exe"><img src="https://img.shields.io/badge/Windows-10%2B-0078D6?logo=windows&logoColor=white" alt="Windows"></a>
   <a href="https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest.AppImage"><img src="https://img.shields.io/badge/Linux-AppImage-FCC624?logo=linux&logoColor=black" alt="Linux"></a>
+  <a href="https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest.apk"><img src="https://img.shields.io/badge/Android-APK-3DDC84?logo=android&logoColor=white" alt="Android APK"></a>
   <a href="https://docs.foxl.ai/docs/get-started/mobile"><img src="https://img.shields.io/badge/iOS-TestFlight_beta-000?logo=apple&logoColor=white" alt="iOS TestFlight beta"></a>
   <a href="https://discord.gg/6J53VyV2Fy"><img src="https://img.shields.io/badge/Discord-join-5865F2?logo=discord&logoColor=white" alt="Discord"></a>
   <a href="https://foxl.ai"><img src="https://img.shields.io/badge/foxl.ai-website-0b5ed7" alt="Website"></a>
@@ -24,14 +25,34 @@
 
 <!--
   THE HERO. One prompt, real tool calls, and the file the agent wrote opened
-  back inside the app. Recorded from the shipped build.
+  back inside the app. Recorded from the shipped build at native Retina
+  3120x1800.
+
+  The visible hero is the animated WebP, because GitHub renders an <img> from a
+  relative path and does not play a <video> from one. The MP4 is linked instead
+  of embedded: an absolute https URL in a <video> tag does not autoplay on
+  GitHub either, and only a video attached to a GitHub comment (the
+  user-attachments host) plays inline.
+
+  TO GET AN INLINE PLAYER (optional, one manual step): drag
+  assets/desktop-hero.mp4 into any issue or PR comment on this repository, then
+  replace the <a><img></a> block below with the URL GitHub returns:
+
+    <video src="https://github.com/user-attachments/assets/PASTE-ID-HERE"
+           poster="assets/desktop-hero-poster.webp" width="100%"
+           autoplay loop muted playsinline>
+      <img src="assets/desktop-hero.webp" alt="..." width="100%" />
+    </video>
+
+  Do not reuse an older attachment URL without checking it: the one this README
+  carried before answered HTTP 404 and rendered an empty player.
 -->
 <p align="center">
-  <video src="https://github.com/user-attachments/assets/cb34ccdd-3061-4b35-a0d6-42b6be44a27b" poster="assets/desktop-hero-poster.webp" width="100%" autoplay loop muted playsinline>
+  <a href="https://foxl.ai/foxl-desktop-hero.mp4">
     <img src="assets/desktop-hero.webp" alt="Foxl turns a sales CSV into a presentation and opens the finished slides in the Workspace rail" width="100%" />
-  </video>
+  </a>
 </p>
-<p align="center"><sub>One sentence in, a finished presentation out. Recorded from the shipped build with real tool calls.</sub></p>
+<p align="center"><sub>One sentence in, a finished presentation out. Recorded from the shipped build with real tool calls. <a href="https://foxl.ai/foxl-desktop-hero.mp4">Watch the full demo</a> (MP4, 38 seconds, 3120x1800).</sub></p>
 
 ## Download
 
@@ -41,13 +62,16 @@
 | **Windows** | Signed NSIS installer, Windows 10+ (64-bit) | [Foxl-latest-setup.exe](https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest-setup.exe) |
 | **Windows Portable** | No install, Windows 10+ (64-bit) | [Foxl-latest-portable.zip](https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest-portable.zip) |
 | **Linux** | AppImage, one executable file, no package manager | [Foxl-latest.AppImage](https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest.AppImage) |
+| **Android** | Signed APK sideload while the Play Store listing is in review | [Foxl-latest.apk](https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest.apk) |
 | **Web** | Any modern browser | [app.foxl.ai](https://app.foxl.ai) |
 | **iOS** | Internal TestFlight beta; no public App Store download yet | [Mobile app status](https://docs.foxl.ai/docs/get-started/mobile) |
 
 Those filenames are fixed across releases, so the links keep working. macOS and
-Windows update themselves in place through electron-updater. Every published
-build is also on the [releases page](https://github.com/foxl-ai/foxl/releases)
-under its version number.
+Windows update themselves in place through electron-updater. Android asks you to
+allow installs from this source, because the APK is a direct download rather
+than a store install. Every published build is also on the
+[releases page](https://github.com/foxl-ai/foxl/releases) under its version
+number.
 
 Open the app, sign in or add your own API key, and ask for something real.
 
@@ -87,6 +111,11 @@ Open the app, sign in or add your own API key, and ask for something real.
   code land in a workspace you can open, edit and share.
 - **Runs on a schedule.** Three trigger kinds, cron, heartbeat interval and
   webhook, for daily briefings, nightly backups and weekly audits.
+- **Reachable from your chat apps.** Mention the bot in Slack and the work runs
+  on your desktop with your local tools, then comes back as a reply in the same
+  thread. Telegram, Discord, WhatsApp, Signal, Matrix and email connect the same
+  way. Slack uses Socket Mode, so there is no public URL and no inbound port,
+  and the allowed-channel list gates which channels can start work.
 - **Parallel subagents.** Up to five at once, and when the last one finishes the
   server synthesizes the batch into one answer without you asking again.
 - **34 bundled skills**, plus your own, covering browser automation, code
