@@ -1,215 +1,167 @@
 <p align="center">
-  <img src="https://foxl.ai/favicon.svg" width="96" alt="Foxl" />
+  <a href="https://foxl.ai"><img src="assets/readme/foxl.svg" width="64" height="64" alt="Foxl" /></a>
 </p>
 
 <h1 align="center">Foxl</h1>
 
-<p align="center"><strong>Your personal AI agent for macOS, Windows, Linux, Android, web and iOS TestFlight.</strong></p>
-
 <p align="center">
-  Ask for an outcome, get the finished work. Foxl sits in your menu bar, drives a
-  real Chrome, writes and runs code, reads and writes your files, and keeps
-  working on a schedule while you are away.
+  <strong>Your day. A little lighter.</strong><br />
+  A personal AI agent for research, writing, and everyday work.<br />
+  At home on your desktop. Ready on your phone.
 </p>
 
 <p align="center">
-  <a href="https://github.com/foxl-ai/foxl/releases/latest"><img src="https://img.shields.io/github/v/release/foxl-ai/foxl?color=16a34a&label=release" alt="Latest release"></a>
-  <a href="https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest-universal.dmg"><img src="https://img.shields.io/badge/macOS-universal-000?logo=apple&logoColor=white" alt="macOS"></a>
-  <a href="https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest-setup.exe"><img src="https://img.shields.io/badge/Windows-10%2B-0078D6?logo=windows&logoColor=white" alt="Windows"></a>
-  <a href="https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest.AppImage"><img src="https://img.shields.io/badge/Linux-AppImage-FCC624?logo=linux&logoColor=black" alt="Linux"></a>
-  <a href="https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest.apk"><img src="https://img.shields.io/badge/Android-APK-3DDC84?logo=android&logoColor=white" alt="Android APK"></a>
-  <a href="https://docs.foxl.ai/docs/get-started/mobile"><img src="https://img.shields.io/badge/iOS-TestFlight_beta-000?logo=apple&logoColor=white" alt="iOS TestFlight beta"></a>
-  <a href="https://discord.gg/6J53VyV2Fy"><img src="https://img.shields.io/badge/Discord-join-5865F2?logo=discord&logoColor=white" alt="Discord"></a>
-  <a href="https://foxl.ai"><img src="https://img.shields.io/badge/foxl.ai-website-0b5ed7" alt="Website"></a>
+  <a href="#get-started"><strong>Download Foxl</strong></a> &nbsp;·&nbsp;
+  <a href="https://foxl.ai">Website</a> &nbsp;·&nbsp;
+  <a href="https://docs.foxl.ai/docs">Documentation</a> &nbsp;·&nbsp;
+  <a href="https://foxl.ai/changelog">Changelog</a>
 </p>
 
-<!--
-  THE HERO. One prompt, real tool calls, and the file the agent wrote opened
-  back inside the app. Recorded from the shipped build at native Retina
-  3120x1800.
-
-  The visible hero is the animated WebP, because GitHub renders an <img> from a
-  relative path and does not play a <video> from one. The MP4 is linked instead
-  of embedded: an absolute https URL in a <video> tag does not autoplay on
-  GitHub either, and only a video attached to a GitHub comment (the
-  user-attachments host) plays inline.
-
-  TO GET AN INLINE PLAYER (optional, one manual step): drag
-  assets/desktop-hero.mp4 into any issue or PR comment on this repository, then
-  replace the <a><img></a> block below with the URL GitHub returns:
-
-    <video src="https://github.com/user-attachments/assets/PASTE-ID-HERE"
-           poster="assets/desktop-hero-poster.webp" width="100%"
-           autoplay loop muted playsinline>
-      <img src="assets/desktop-hero.webp" alt="..." width="100%" />
-    </video>
-
-  Do not reuse an older attachment URL without checking it: the one this README
-  carried before answered HTTP 404 and rendered an empty player.
--->
 <p align="center">
-  <a href="https://foxl.ai/foxl-desktop-hero.mp4">
-    <img src="assets/desktop-hero.webp" alt="Foxl turns a sales CSV into a presentation and opens the finished slides in the Workspace rail" width="100%" />
+  <a href="https://github.com/foxl-ai/foxl/releases/latest"><img src="https://img.shields.io/github/v/release/foxl-ai/foxl?style=flat&label=latest%20release&color=0969da" alt="Latest Foxl release" /></a>
+</p>
+
+<p align="center">
+  <a href="https://foxl.ai/demos/first-screen/desktop-chat.mp4">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/readme/desktop-dark.webp" />
+      <img src="assets/readme/desktop-light.webp" width="100%" alt="Foxl Desktop turns a short request into a launch plan, alongside the Foxl chat companion on iPhone." />
+    </picture>
   </a>
 </p>
-<p align="center"><sub>One sentence in, a finished presentation out. Recorded from the shipped build with real tool calls. <a href="https://foxl.ai/foxl-desktop-hero.mp4">Watch the full demo</a> (MP4, 38 seconds, 3120x1800).</sub></p>
+<p align="center"><sub>A thought becomes a plan. Real screens from Foxl Desktop and iPhone. <a href="https://foxl.ai/demos/first-screen/desktop-chat.mp4">Watch the Desktop demo ↗</a></sub></p>
 
-## Download
+Foxl brings conversation, files, browser tools, and meeting notes into one calm workspace. Start with something on your mind. Leave with a clearer plan, a useful draft, or work you can pick up again later.
 
-| Platform | Notes | Download |
-|---|---|---|
-| **macOS** | Universal (Apple Silicon + Intel), macOS 12+ | [Foxl-latest-universal.dmg](https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest-universal.dmg) |
-| **Windows** | Signed NSIS installer, Windows 10+ (64-bit) | [Foxl-latest-setup.exe](https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest-setup.exe) |
-| **Windows Portable** | No install, Windows 10+ (64-bit) | [Foxl-latest-portable.zip](https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest-portable.zip) |
-| **Linux** | AppImage, one executable file, no package manager | [Foxl-latest.AppImage](https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest.AppImage) |
-| **Android** | Signed APK sideload while the Play Store listing is in review | [Foxl-latest.apk](https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest.apk) |
-| **Web** | Any modern browser | [app.foxl.ai](https://app.foxl.ai) |
-| **iOS** | Internal TestFlight beta; no public App Store download yet | [Mobile app status](https://docs.foxl.ai/docs/get-started/mobile) |
+On Desktop, your agent runs on your computer. Connect the models you choose, decide which actions need approval, and keep useful context in memory you can inspect.
 
-Those filenames are fixed across releases, so the links keep working. macOS and
-Windows update themselves in place through electron-updater. Android asks you to
-allow installs from this source, because the APK is a direct download rather
-than a store install. Every published build is also on the
-[releases page](https://github.com/foxl-ai/foxl/releases) under its version
-number.
+## Get started
 
-Open the app, sign in or add your own API key, and ask for something real.
+| Platform | Download or open |
+| :--- | :--- |
+| **macOS** | [Universal DMG — Apple silicon + Intel][download-macos] |
+| **Windows** | [Installer][download-windows] · [Portable ZIP][download-windows-portable] |
+| **Linux** | [AppImage][download-linux] |
+| **iPhone & iPad** | [Public TestFlight beta][download-ios] |
+| **Android** | [APK — direct download][download-android] |
+| **Web** | [Open Foxl in your browser][open-web] |
 
-## How it works
+iOS and iPadOS are available through TestFlight. Android uses an APK that you install directly. [Installation help](https://docs.foxl.ai/docs/get-started/download) · [All releases](https://github.com/foxl-ai/foxl/releases)
 
-1. Tell Foxl the outcome you want: "summarize this quarter's numbers into a
-   one-pager", "watch this folder and file the invoices", "check what broke in
-   CI overnight".
-2. It plans the steps and works across your files, your terminal, and a real
-   browser session.
-3. The consequential steps stop for you first. Shell commands, terminal
-   sessions, `git commit` and `git push`, and spawning a subagent all wait for
-   your approval, and you can grant a pattern once instead of every time.
-4. You get the deliverable: a file, a commit, a booked calendar, a drafted reply.
+On Desktop, getting to your first useful conversation takes three steps:
 
-```text
-┌─────────────────────────────────────────────────┐
-│               Foxl desktop app                  │  menu bar + window
-├─────────────────────────────────────────────────┤
-│          local agent server (Node.js)           │  engine · tools · skills
-├───────────────┬────────────────┬────────────────┤
-│  your files   │  a real Chrome │  your model    │  runs on your machine,
-│  & terminal   │  session       │  or your keys  │  with your credentials
-└───────────────┴────────────────┴────────────────┘
-```
+1. **Open Foxl.** Install the app for your computer.
+2. **Choose your model.** Connect a supported subscription, add a provider API key, or select a local model.
+3. **Bring a small task.** Ask a question, work through an idea, or give your agent a file to help with.
 
-## Highlights
+> “Draft a launch plan for a neighborhood coffee shop. Give me three priorities and a simple four-week timeline.”
 
-- **Sits in the menu bar.** One click from recent chats, running in the
-  background around the clock. Settings > General > Show in menu bar turns the
-  icon off if you would rather it stayed out of the way.
-- **Drives real Chrome.** With the bundled Chrome extension the agent works in
-  your own browser, so cookies, logins, extensions and 2FA stay intact on the
-  sites you are already signed in to. Without the extension it drives a separate
-  Foxl browser profile that keeps its own logins.
-- **Produces files, not just answers.** Documents, spreadsheets, reports and
-  code land in a workspace you can open, edit and share.
-- **Runs on a schedule.** Three trigger kinds, cron, heartbeat interval and
-  webhook, for daily briefings, nightly backups and weekly audits.
-- **Reachable from your chat apps.** Mention the bot in Slack and the work runs
-  on your desktop with your local tools, then comes back as a reply in the same
-  thread. Telegram, Discord, WhatsApp, Signal, Matrix and email connect the same
-  way. Slack uses Socket Mode, so there is no public URL and no inbound port,
-  and the allowed-channel list gates which channels can start work.
-- **Parallel subagents.** Up to five at once, and when the last one finishes the
-  server synthesizes the batch into one answer without you asking again.
-- **34 bundled skills**, plus your own, covering browser automation, code
-  search, research, document generation, email, calendars and more.
-- **Curated, file-backed memory** that grows with every conversation and stays
-  readable on disk as plain markdown.
-- **Frontier models, or your own keys.** Claude Opus 5 is the default, with
-  Fable 5, Opus 4.8, Sonnet 5, Haiku 4.5 and OpenAI's GPT-5.6 Sol, Terra and
-  Luna alongside it. Adaptive extended thinking, prompt caching, and up to a
-  million tokens of context on the current models.
+Foxl Desktop is free to download. Your chosen model or transcription provider may charge for its service.
 
-## Models
+## The ideas behind Foxl
 
-Opus 5 is the default. The picker shows the current lineup and hides superseded
-generations such as Opus 4.7, Opus 4.6 and Sonnet 4.6 behind a "show older
-models" toggle, so they stay selectable without cluttering the list.
+Good software should leave you more room for the work that matters. These principles guide how we build Foxl.
 
-| Model | Context | Max output |
-|---|---|---|
-| **Claude Opus 5** (default) | 1M | 128K |
-| Claude Fable 5 | 1M | 128K |
-| Claude Opus 4.8 | 1M | 128K |
-| Claude Sonnet 5 | 1M | 128K |
-| Claude Haiku 4.5 | 200K | 64K |
-| GPT-5.6 Sol / Terra / Luna | 1M | 128K |
-| GPT-5.5 | 272K | 128K |
+### Make room for attention.
 
-The GPT-5.6 models moved from 272K to the full million in v0.5.12, so a whole
-repository or a long contract fits in one request. GPT-5.5 stays at 272K, and a
-GPT model reached through a ChatGPT subscription serves 272K as well, because
-that is OpenAI's own endpoint rather than Bedrock.
+Clear type, generous spacing, and focused views make a conversation easier to follow. A familiar workspace gives research, writing, and tools a place to live, with detail available as the work calls for it.
 
-## Bring your own model
+### Keep you in control.
 
-Use Foxl's included model access, or point the app at an account you already
-pay for. Two different things are supported, and they work differently:
+You choose the model and the permissions. Approval controls and visible progress let you understand what your agent is doing and decide how much freedom to give it.
 
-**API keys (BYOK).** Anthropic, OpenAI, Google AI, AWS Bedrock with your own AWS
-credentials, and a local model through Ollama. On top of those, any
-OpenAI-compatible endpoint: Groq, DeepSeek, OpenRouter, Together AI, Mistral,
-Fireworks, Z.ai, Kimi, Qwen, MiniMax, Perplexity, xAI, Cerebras, SambaNova,
-Cohere, AI21, HuggingFace, plus vLLM and LM Studio for models you host yourself.
+### Let context carry forward.
 
-**Subscription sign-ins, no API key.** A **Claude Pro or Max** subscription
-through Claude Code's OAuth credentials, and a **ChatGPT Plus or Pro**
-subscription through Codex OAuth. These are logins rather than metered API keys,
-so an existing subscription counts and no new billing does.
+A useful conversation should help with the next one. Saved memory gives your agent context to draw on, and Desktop Notes can connect a meeting to earlier chats. That memory stays readable and editable as plain Markdown.
 
-## Privacy
+### Respect your choices.
 
-The agent runs on your machine. Conversations, memory, skills and workspace
-files live under `~/.foxl` on your own disk. API keys are stored encrypted with
-AES-256-GCM in the local database rather than in plaintext. The browser the
-extension drives is your own profile, on your own machine. Model traffic goes to
-whichever provider you choose.
+Bring an account you already use, choose a provider, or run a model on your own hardware. Work with ordinary files and inspectable memory. The setup should fit the way you work.
 
-## Documentation
+## Built around your work
 
-Full docs at [docs.foxl.ai](https://docs.foxl.ai/docs):
+### Desktop · Think it through. Put it to work.
 
-- [Get started](https://docs.foxl.ai/docs/get-started) including
-  [Download](https://docs.foxl.ai/docs/get-started/download),
-  [Chrome extension](https://docs.foxl.ai/docs/get-started/chrome-extension),
-  [Web app](https://docs.foxl.ai/docs/get-started/web-app),
-  [Mobile](https://docs.foxl.ai/docs/get-started/mobile) and
-  [Desktop relay](https://docs.foxl.ai/docs/get-started/desktop-relay)
-- [Desktop](https://docs.foxl.ai/docs/desktop) for models, providers, tools,
-  skills, subagents, scheduling, memory, browser and channels
-- [Foxl Code](https://docs.foxl.ai/docs/foxl-code), the autonomous coding agents
-- [Notes](https://docs.foxl.ai/docs/notes), meeting recording and AI summaries
-- [Reference](https://docs.foxl.ai/docs/reference) including
-  [Credits](https://docs.foxl.ai/docs/reference/credits) and
-  [Notifications](https://docs.foxl.ai/docs/reference/notifications)
+Research a question, shape an idea, or find the words for a first draft. When the task needs more, your agent can work with local files, use your browser, and run commands with the permissions you choose.
 
-## Community
+- **A workspace for the result.** Keep conversations and the files you are working on close together.
+- **Tools for the next step.** Extend your agent with skills, connect services, and schedule recurring work.
+- **Your choice of models.** Move between providers within the same familiar interface.
 
-[Discord](https://discord.gg/6J53VyV2Fy) ·
-[Issues](https://github.com/foxl-ai/foxl/issues) ·
-[Changelog](https://foxl.ai/#changelog) ·
-[Blog](https://foxl.ai/blog)
+[Explore Desktop](https://docs.foxl.ai/docs/desktop) · [Set up your browser](https://docs.foxl.ai/docs/get-started/chrome-extension)
 
-Bug reports and feature requests are welcome in
-[Issues](https://github.com/foxl-ai/foxl/issues). This repository hosts the
-released binaries. The agent runtime, relay and web apps are developed in a
-private monorepo, so it does not take code contributions.
+### Notes · Keep the conversation.
 
-## Security
+Record a conversation, follow its transcript, and turn it into a summary and action items you can return to. On Desktop, Notes can use saved memories and look up earlier chats, bringing useful context into your next meeting.
 
-Found something? Email [security@foxl.ai](mailto:security@foxl.ai) or open a
-[private security advisory](https://github.com/foxl-ai/foxl/security/advisories/new).
+<p align="center">
+  <a href="https://foxl.ai/notes">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/readme/notes-dark.webp" />
+      <img src="assets/readme/notes-light.webp" width="100%" alt="A meeting summary in Foxl Notes on iPad, with the same kind of notes available on iPhone." />
+    </picture>
+  </a>
+</p>
+<p align="center"><sub>A conversation becomes something you can come back to. Foxl Notes on iPad and iPhone.</sub></p>
 
-## License
+[Meet Foxl Notes](https://foxl.ai/notes) · [Read the Notes guide](https://docs.foxl.ai/docs/notes)
 
-Proprietary. Copyright (c) 2026 Foxl AI, all rights reserved. See
-[LICENSE](LICENSE). Downloading and using the released binaries is permitted
-under that license; the source is not distributed, so there is nothing here to
-build from source.
+### Code · Give the task some room.
+
+Delegate coding work to agents and review the results in a browser. Foxl Code is a separate cloud service, currently in **private beta** with a waitlist.
+
+[Explore Foxl Code and join the waitlist](https://foxl.ai/code)
+
+## Your models. Your agents. Your keys.
+
+Foxl Desktop supports three ways to connect a model:
+
+| Connection | Examples |
+| :--- | :--- |
+| **Subscription sign-in** | Claude Pro / Max and ChatGPT Plus / Pro through their supported CLI sign-ins; Gemini CLI credentials |
+| **Provider API key** | Anthropic, OpenAI, Google, Amazon Bedrock, and OpenAI-compatible providers |
+| **Local inference** | Ollama, LM Studio, and vLLM on your own hardware |
+
+Available models and usage limits depend on your provider and account. The [provider setup guide](https://docs.foxl.ai/docs/desktop/providers) covers the current integrations and connection steps.
+
+## Your data and permissions
+
+**Desktop storage is local.** Conversations, workspace files, and agent memory live on your computer. You can read, edit, or delete the Markdown files used for memory.
+
+**Connected providers process what you send them.** Cloud models, transcription providers, and connected services have their own data flows. Desktop also supports local models and local transcription.
+
+**Remote access is optional.** Connect your phone or browser to your Desktop through the Foxl relay when you need your computer's tools. The relay documentation explains the transport protections and data flows for each feature.
+
+[Security & privacy](https://foxl.ai/security) · [Desktop relay](https://docs.foxl.ai/docs/get-started/desktop-relay) · [Privacy policy](https://foxl.ai/privacy)
+
+## Find your way around
+
+- **[Getting started](https://docs.foxl.ai/docs/get-started)** — installation, your first conversation, and connecting devices.
+- **[Desktop guide](https://docs.foxl.ai/docs/desktop)** — providers, tools, skills, memory, and scheduling.
+- **[Notes guide](https://docs.foxl.ai/docs/notes)** — recording, transcription, summaries, and meeting context.
+- **[Changelog](https://foxl.ai/changelog)** — what changed in each release.
+- **[Blog](https://foxl.ai/blog)** — product decisions and the engineering behind them.
+
+## Feedback and security
+
+[Get help or share feedback](https://foxl.ai/support) · [Join Discord](https://discord.gg/6J53VyV2Fy)
+
+For a bug report, include your Foxl version, operating system, and steps to reproduce it. Clear examples help us understand what you were trying to do.
+
+For security issues, contact [security@foxl.ai](mailto:security@foxl.ai) privately.
+
+## About this repository
+
+This is Foxl's public repository for **releases and downloads**. The application source is maintained separately. Feedback is welcome through the support and community links above.
+
+Foxl is proprietary software. See the [license](LICENSE) and [terms](https://foxl.ai/terms).
+
+<p align="center"><sub>© 2026 Foxl AI · Made in San Francisco.</sub></p>
+
+[download-macos]: https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest-universal.dmg
+[download-windows]: https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest-setup.exe
+[download-windows-portable]: https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest-portable.zip
+[download-linux]: https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest.AppImage
+[download-android]: https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest.apk
+[download-ios]: https://testflight.apple.com/join/VpG4EK19
+[open-web]: https://app.foxl.ai
