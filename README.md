@@ -22,16 +22,14 @@
 </p>
 
 <p align="center">
-  <a href="https://foxl.ai/demos/first-screen/desktop-chat.mp4">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/readme/desktop-dark.webp" />
-      <img src="assets/readme/desktop-light.webp" width="100%" alt="Foxl Desktop turns a short request into a launch plan, alongside the Foxl chat companion on iPhone." />
-    </picture>
-  </a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/readme/desktop-dark.webp" />
+    <img src="assets/readme/desktop-light.webp" width="100%" alt="Foxl on a Mac. Asked to check the official pages for three address changes before a move, it worked for 2 minutes 42 seconds in its own browser, recommends doing the USPS mail forwarding tonight, and shows the table it saved to move/address-changes.md: USPS forwarding is $1.25 online and takes 7 to 10 business days to start, the California DMV change is due within 10 days of the move, and updating voter registration is free." />
+  </picture>
 </p>
-<p align="center"><sub>A thought becomes a plan. Real screens from Foxl Desktop and iPhone. <a href="https://foxl.ai/demos/first-screen/desktop-chat.mp4">Watch the Desktop demo ↗</a></sub></p>
+<p align="center"><sub>One request, three official sites, a saved table and the one step to take tonight. A real run on Foxl 0.9.9 with a sample move; the pages were read on October 31, 2026.</sub></p>
 
-Foxl brings conversation, files, browser tools, and meeting notes into one calm workspace. Start with something on your mind. Leave with a clearer plan, a useful draft, or work you can pick up again later.
+Give Foxl an errand that takes a few websites and some bookkeeping. It reads the pages in its own browser, saves what it found as a file in your workspace, and tells you what to do first. Pick the same chat up on your phone later, and let Notes turn a meeting into action items and a follow-up email.
 
 On Desktop, your agent runs on your computer. Connect the models you choose, decide which actions need approval, and keep useful context in memory you can inspect.
 
@@ -42,11 +40,11 @@ On Desktop, your agent runs on your computer. Connect the models you choose, dec
 | **macOS** | [Universal DMG — Apple silicon + Intel][download-macos] |
 | **Windows** | [Installer][download-windows] · [Portable ZIP][download-windows-portable] |
 | **Linux** | [AppImage][download-linux] |
-| **iPhone & iPad** | [Public TestFlight beta][download-ios] |
+| **iPhone & iPad** | [App Store][download-ios-app-store] · [Public TestFlight beta][download-ios] |
 | **Android** | [APK — direct download][download-android] |
 | **Web** | [Open Foxl in your browser][open-web] |
 
-iOS and iPadOS are available through TestFlight. Android uses an APK that you install directly. [Installation help](https://docs.foxl.ai/docs/get-started/download) · [All releases](https://github.com/foxl-ai/foxl/releases)
+On iPhone and iPad, get Foxl from the App Store where it is offered, or join the TestFlight beta. Android uses an APK that you install directly. [Installation help](https://docs.foxl.ai/docs/get-started/download) · [All releases](https://github.com/foxl-ai/foxl/releases)
 
 On Desktop, getting to your first useful conversation takes three steps:
 
@@ -54,7 +52,7 @@ On Desktop, getting to your first useful conversation takes three steps:
 2. **Choose your model.** Connect a supported subscription, add a provider API key, or select a local model.
 3. **Bring a small task.** Ask a question, work through an idea, or give your agent a file to help with.
 
-> “Draft a launch plan for a neighborhood coffee shop. Give me three priorities and a simple four-week timeline.”
+> “Use the browser to check the official pages for my USPS, DMV and voter registration address changes. Save a table with each one's cost, deadline and link, then tell me which one to do tonight.”
 
 Foxl Desktop is free to download. Your chosen model or transcription provider may charge for its service.
 
@@ -82,27 +80,35 @@ Bring an account you already use, choose a provider, or run a model on your own 
 
 ### Desktop · Think it through. Put it to work.
 
-Research a question, shape an idea, or find the words for a first draft. When the task needs more, your agent can work with local files, use your browser, and run commands with the permissions you choose.
+Research a question, compare your options, or find the words for a first draft. When the task needs more, your agent can read pages in its own browser, work with local files, and run commands with the permissions you choose. The web pages an answer read are listed under it, so you can check the work.
 
-- **A workspace for the result.** Keep conversations and the files you are working on close together.
-- **Tools for the next step.** Extend your agent with skills, connect services, and schedule recurring work.
+- **A workspace for the result.** The files your agent writes stay in your workspace, listed beside the chat that made them.
+- **Tools for the next step.** Extend your agent with skills, connect services, and schedule recurring work or a one-time reminder.
 - **Your choice of models.** Move between providers within the same familiar interface.
 
-[Explore Desktop](https://docs.foxl.ai/docs/desktop) · [Set up your browser](https://docs.foxl.ai/docs/get-started/chrome-extension)
+Connect your phone through the Foxl relay and the same chats come with you. Ask for the next step from wherever you are, and your computer does the work.
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/readme/phone-dark.webp" />
+    <img src="assets/readme/phone-light.webp" width="380" alt="The same Foxl chat in the phone layout: the address-changes file Foxl saved, with its table, then a new message, Remind me Sunday, Nov 8 at 6 pm to do the DMV change and check my voter registration, and Foxl's reply that the reminder is set for Sunday, Nov 8 at 6:00 PM Pacific." />
+  </picture>
+</p>
+<p align="center"><sub>Later, from the phone: the saved table, then a reminder for the day after the move. Foxl's phone layout on 0.9.9.</sub></p>
+
+[Explore Desktop](https://docs.foxl.ai/docs/desktop) · [Set up your browser](https://docs.foxl.ai/docs/get-started/chrome-extension) · [Connect your phone](https://docs.foxl.ai/docs/get-started/desktop-relay)
 
 ### Notes · Keep the conversation.
 
-Record a conversation, follow its transcript, and turn it into a summary and action items you can return to. On Desktop, Notes can use saved memories and look up earlier chats, bringing useful context into your next meeting.
+Record a meeting, or import a recording or a transcript you already have. Notes writes the summary with action items, owners and dates, and the AI Assistant beside it has the whole transcript: ask what you owe by Wednesday, or have it draft the follow-up email. On Desktop, Notes can use saved memories and look up earlier chats, bringing useful context into your next meeting.
 
 <p align="center">
-  <a href="https://foxl.ai/notes">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/readme/notes-dark.webp" />
-      <img src="assets/readme/notes-light.webp" width="100%" alt="A meeting summary in Foxl Notes on iPad, with the same kind of notes available on iPhone." />
-    </picture>
-  </a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/readme/notes-dark.webp" />
+    <img src="assets/readme/notes-light.webp" width="100%" alt="Foxl Notes on a Mac with a sample meeting, Newsletter relaunch sync. The Summary tab lists the key points and six action items with owners and days, and the AI Assistant beside it has drafted a follow-up email to Daniel and Priya with what was decided, who owns what, and the dates." />
+  </picture>
 </p>
-<p align="center"><sub>A conversation becomes something you can come back to. Foxl Notes on iPad and iPhone.</sub></p>
+<p align="center"><sub>A made-up three-person meeting, imported as a transcript. The summary, the action items and the email draft are Foxl's own output on 0.9.9.</sub></p>
 
 [Meet Foxl Notes](https://foxl.ai/notes) · [Read the Notes guide](https://docs.foxl.ai/docs/notes)
 
@@ -164,4 +170,5 @@ Foxl is proprietary software. See the [license](LICENSE) and [terms](https://fox
 [download-linux]: https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest.AppImage
 [download-android]: https://github.com/foxl-ai/foxl/releases/latest/download/Foxl-latest.apk
 [download-ios]: https://testflight.apple.com/join/VpG4EK19
+[download-ios-app-store]: https://apps.apple.com/app/id6778292200
 [open-web]: https://app.foxl.ai
